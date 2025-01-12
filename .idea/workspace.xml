@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="024db631-0ecd-4220-81a3-77bc73f2a21f" name="Changes" comment="Init Commit">
+    <list default="true" id="024db631-0ecd-4220-81a3-77bc73f2a21f" name="Changes" comment="Module_19_1 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango19/UrbanDjango19/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/UrbanDjango19/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango19/task1/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <updated>1736676414030</updated>
       <workItem from="1736676415107" duration="326000" />
       <workItem from="1736676758751" duration="327000" />
-      <workItem from="1736695205875" duration="324000" />
+      <workItem from="1736695205875" duration="3282000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <option name="closed" value="true" />
@@ -78,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736677078968</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Module_19_1 done">
+      <option name="closed" value="true" />
+      <created>1736695836885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736695836885</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init Commit" />
+    <MESSAGE value="Module_19_1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module_19_1 done" />
   </component>
 </project>

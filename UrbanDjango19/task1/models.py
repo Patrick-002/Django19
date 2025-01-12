@@ -12,3 +12,9 @@ class Game(models.Model):
     description = models.TextField()
     age_limited = models.BooleanField(default=False)
     buyer = models.ManyToManyField(Buyer)
+
+# from task1.models import Buyer, Game
+# Game.objects.all()
+# Buyer.objects.create(name = 'user1', balance = 777.77, age = 22)
+# Game.objects.create(title = 'RainWorld', cost = 880, size = 8, description = 'Slugcat <3', age_limited = 0)
+# Game.objects.get(id=1).buyer.set((Nikita, user1))
