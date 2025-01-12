@@ -20,3 +20,7 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+# cd UrbanDjango19
+# python manage.py makemigrations
+# python manage.py migrate
