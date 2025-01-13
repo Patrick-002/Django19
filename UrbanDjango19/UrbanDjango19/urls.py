@@ -32,3 +32,5 @@ urlpatterns = [
 # python manage.py makemigrations
 # python manage.py migrate
 # python manage.py shell
+# python manage.py createsuperuser
+# admin1 123
