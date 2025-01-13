@@ -16,12 +16,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from task1.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('platform/', Platform.as_view()),
+    path('games/', Games.as_view()),
+    path('cart/', Cart.as_view()),
+    path('django_sign_up/', sign_up_by_django),
+    path('html_sign_up/', sign_up_by_html),
 ]
 
 # cd UrbanDjango19
+# python manage.py runserver
 # python manage.py makemigrations
 # python manage.py migrate
 # python manage.py shell
