@@ -1,5 +1,4 @@
-from random import random
-
+from django.core.paginator import Paginator
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from .forms import UserRegister
@@ -89,3 +88,7 @@ def sign_up_by_html(request):
         Buyer.objects.create(name=username, balance=0, age=age)
         info['message'] = f'Приветствуем, {username}!'
     return render(request, 'fourth_task/registration_page.html', info)
+
+
+def news(request):
+    return render(request, 'fourth_task/news.html')

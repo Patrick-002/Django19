@@ -13,6 +13,12 @@ class Game(models.Model):
     age_limited = models.BooleanField(default=False)
     buyer = models.ManyToManyField(Buyer)
 
+class News(models.Model):
+    title = models.CharField(max_length=255)
+    content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+
 # from task1.models import Buyer, Game
 # Game.objects.all()
 # Buyer.objects.create(name = 'user1', balance = 777.77, age = 22)

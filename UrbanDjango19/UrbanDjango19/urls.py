@@ -25,6 +25,7 @@ urlpatterns = [
     path('cart/', Cart.as_view()),
     path('django_sign_up/', sign_up_by_django),
     path('html_sign_up/', sign_up_by_html),
+    path('platform/news/', news),
 ]
 
 # cd UrbanDjango19
